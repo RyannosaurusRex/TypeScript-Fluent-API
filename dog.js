@@ -1,4 +1,3 @@
-"use strict";
 var Dog = (function () {
     function Dog() {
     }
@@ -20,8 +19,6 @@ var Dog = (function () {
     };
     return Dog;
 }());
-exports.__esModule = true;
-exports["default"] = Dog;
 var WalkCommand = (function () {
     function WalkCommand(dog) {
         this.dog = dog;
@@ -34,7 +31,6 @@ var WalkCommand = (function () {
     };
     return WalkCommand;
 }());
-exports.WalkCommand = WalkCommand;
 var RunCommand = (function () {
     function RunCommand(dog) {
         this.dog = dog;
@@ -47,4 +43,3 @@ var RunCommand = (function () {
     };
     return RunCommand;
 }());
-exports.RunCommand = RunCommand;

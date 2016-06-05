@@ -1,4 +1,4 @@
-export default class Dog {
+declare class Dog {
     constructor();
     Bark(): Dog;
     Scratch(): Dog;
@@ -6,13 +6,13 @@ export default class Dog {
     GoOnWalk(): WalkCommand;
     GoForRun(): RunCommand;
 }
-export declare class WalkCommand {
+declare class WalkCommand {
     dog: Dog;
     constructor(dog: Dog);
     GoToPark(): WalkCommand;
     GoHome(): Dog;
 }
-export declare class RunCommand {
+declare class RunCommand {
     dog: Dog;
     constructor(dog: Dog);
     RunToPark(): RunCommand;

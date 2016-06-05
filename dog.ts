@@ -53,3 +53,5 @@ class RunCommand {
         return this.dog;
     }
 }
+
+new Dog().Bark().Woof().GoForRun().RunToPark().RunToPark().GoHome().Bark();

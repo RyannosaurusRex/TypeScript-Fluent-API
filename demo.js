@@ -1,4 +1,4 @@
-"use strict";
-var dog_1 = require("./dog");
-var dog = new dog_1["default"]();
+/// <reference path="dog.ts" />
+//import Dog from "./dog";
+var dog = new Dog();
 dog.Bark();
