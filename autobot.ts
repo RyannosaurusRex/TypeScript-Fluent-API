@@ -78,6 +78,3 @@ var bot = new Autobot();
 bot.HasNameOf("Optimus Prime").WithMake("Mitsubishi?").AndModel("SemiTruck?")
 .ITSALIVE().Speak("Autobots, transform and roll out!").Shoot().TransformToAuto().Drive().TransformToBot().Shoot().TransformToAuto().Drive()
 bot.ITSALIVE();
-
-var form = new LoginForm();
-form.StartLogin().TypeUsername("ryan").TypePassword("Password").ClickLogin();
